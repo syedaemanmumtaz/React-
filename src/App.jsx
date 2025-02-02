@@ -2,6 +2,8 @@ import { } from 'react'
 import './App.css'
 import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
+import About from './Components/About';
+import Contect from './Components/Contect';
 
 function App() {
 
@@ -9,6 +11,10 @@ function App() {
     <>
      <Navbar/>
      <Hero/>
+     <hr />
+     <About/>
+     <hr />
+     <Contect/>
     </>
   )
 }
